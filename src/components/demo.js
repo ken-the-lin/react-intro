@@ -4,7 +4,7 @@ class Demo extends React.Component{
     render(){
         return(
             <div>
-                hello, I am demo
+                hello, my name is {this.props.name}
             </div>
         )
     }
